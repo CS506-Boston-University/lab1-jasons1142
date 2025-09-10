@@ -72,7 +72,6 @@ class Mul:
         # TODO: Implement evaluation for multiplication
         # Should evaluate both operands and return their product
         return Int((self.p1.evaluate(x_value).i) * (self.p2.evaluate(x_value).i))
-        
 
     def simplify(self):
         # TODO (Optional Exercise): Implement simplification
@@ -102,7 +101,6 @@ class Sub:
         # TODO: Implement evaluation for subtraction
         # Should return the difference of the two operands
         return Int((self.p1.evaluate(x_value).i) - (self.p2.evaluate(x_value).i))
-        
 
     def simplify(self):
         # TODO (Optional Exercise): Implement simplification
